@@ -109,7 +109,7 @@ Set up your Silex application something like this:
     $app['swiftmailer.options'] = array();
 
     // Database config. See http://silex.sensiolabs.org/doc/providers/doctrine.html
-    $app['db.options'] = array(
+    $app['db.options'] => array(
         'driver'   => 'pdo_mysql',
         'host' => 'localhost',
         'dbname' => 'mydbname',
